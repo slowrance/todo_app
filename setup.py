@@ -12,7 +12,9 @@ requires = [
     'pyramid',
     'pyramid_chameleon',
     'pyramid_debugtoolbar',
+    'sqlalchemy',
     'waitress',
+
 ]
 
 tests_require = [
