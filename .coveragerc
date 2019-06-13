@@ -1,0 +1,3 @@
+[run]
+source = todo
+omit = todo/test*
