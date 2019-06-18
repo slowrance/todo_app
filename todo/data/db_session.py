@@ -3,6 +3,7 @@ import logging
 import sqlalchemy
 import sqlalchemy.orm
 from todo.data.modelbase import SqlAlchemyBase
+# noinspection PyUnresolvedReferences
 import todo.data.__all_models
 
 log = logging.getLogger(__name__)
