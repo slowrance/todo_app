@@ -2,10 +2,39 @@
     <div metal:fill-slot="content">
 
         <div class="content">
-            <h1><span class="font-semi-bold">Pyramid</span> <span class="smaller">Starter project</span></h1>
-            <p class="lead">Welcome to <span class="font-normal">todo</span>, a&nbsp;Pyramid
-                application generated&nbsp;by<br><span class="font-normal">PyCharm</span>.</p>
+            <h1><span class="font-semi-bold">Steve's Todo List</span></h1>
+            <div class="todos">
+                <div class="row">
+
+
+                        <div class="todo">
+                            <div class="todo-text font-semi-bold">First Todo</div>
+                            <div class="todo-dates todo-created">Created: 6/28/19</div>
+                            <div class="todo-dates todo-due">Due: 6/29/19</div>
+                            <div class="todo-buttons">
+                                <button class="btn btn-danger delete">Delete</button>
+                                <button class="btn btn-success edit">Edit</button>
+                            </div>
+
+                        </div>
+                        <div class="todo">
+                            <div class="todo-text font-semi-bold">Second Todo something longer here that may have to word wrap and will definitely be in the way of the buttons </div>
+                            <div class="todo-dates todo-created">Created: 6/28/19</div>
+                            <div class="todo-dates todo-due">Due: 6/29/19</div>
+                            <div class="todo-buttons">
+                                <button class="btn btn-danger delete">Delete</button>
+                                <button class="btn btn-success edit">Edit</button>
+                            </div>
+
+                        </div>
+
+
+                </div>
+
+            </div>
+
         </div>
+
 
     </div>
 </div>

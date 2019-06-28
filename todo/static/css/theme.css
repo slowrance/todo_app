@@ -1,9 +1,19 @@
 @import url(//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+
+/* colors https://coolors.co/79b791-abd1b5-edf4ed-51291e-301014 */
+.colors {
+  color: #79b791;
+  color: #abd1b5;
+  color: #edf4ed;
+  color: #51291e;
+  color: #301014;
+}
+
 body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
-  color: #ffffff;
-  background: #bc2131;
+  color: #51291e;
+  background: #edf4ed;
 }
 h1,
 h2,
@@ -17,6 +27,19 @@ h6 {
 p {
   font-weight: 300;
 }
+.todo-buttons {
+  float: right;
+  margin: 5px;
+}
+.todo-dates {
+  text-align: right;
+}
+.content {
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+  background: #79b791;
+}
 .font-normal {
   font-weight: 400;
 }
@@ -26,8 +49,12 @@ p {
 .font-bold {
   font-weight: 700;
 }
+
 .starter-template {
-  margin-top: 250px;
+  margin-top: 50px;
+}
+.container .hero .content{
+
 }
 .starter-template .content {
   margin-left: 10px;
@@ -35,11 +62,14 @@ p {
 .starter-template .content h1 {
   margin-top: 10px;
   font-size: 60px;
+
+
 }
 .starter-template .content h1 .smaller {
   font-size: 40px;
   color: #f2b7bd;
 }
+
 .starter-template .content .lead {
   font-size: 25px;
   color: #f2b7bd;
@@ -85,13 +115,22 @@ p {
 .starter-template .links ul li:hover .icon-muted {
   color: #ffffff;
 }
-.starter-template .copyright {
-  margin-top: 10px;
-  font-size: 0.9em;
-  color: #f2b7bd;
-  text-transform: lowercase;
-  float: right;
-  right: 0;
+
+.todo {
+  // border: 1px solid #000;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  margin: 5px 20px 5px 20px;
+  display: inline-block;
+  width: 90%;
+  background-color: #abd1b5;
+  color: #301014;
+  padding: 3px;
+}
+.todo-text {
+  float: left;
+  width: 75%;
 }
 @media (max-width: 1199px) {
   .starter-template .content h1 {
